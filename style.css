@@ -1,11 +1,9 @@
-/* ======================================= */
-/* CONFIGURAÇÕES GERAIS DO CORPO      */
-/* ======================================= */
+
 body {
-    /* Fundo com um gradiente suave */
+    
     background: linear-gradient(135deg, #e0eafc, #cfdef3);
-    font-family: 'Poppins', sans-serif; /* Fonte profissional e moderna */
-    color: #2c3e50; /* Cor de texto principal (cinza escuro) */
+    font-family: 'Poppins', sans-serif; 
+    color: #2c3e50; 
     margin: 0;
     display: flex;
     justify-content: center;
@@ -16,46 +14,40 @@ body {
 }
 
 
-/* ======================================= */
-/* O CARTÃO PRINCIPAL (CONTAINER)    */
-/* ======================================= */
+
 .container {
     max-width: 450px;
     width: 100%;
-    /* Removido background-color rgba para dar lugar à imagem */
+    
     padding: 40px;
     border-radius: 25px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     
-    /* === PROPRIEDADES DA IMAGEM DE FUNDO === */
-    background-image: url('aa'); /* <-- COLOQUE O LINK DA SUA IMAGEM AQUI */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo do container */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    position: relative; /* Necessário para posicionar o overlay */
-    overflow: hidden; /* Garante que a imagem não vaze nas bordas */
-    /* ======================================= */
+    
+    background-image: url('aa'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    overflow: hidden; 
+   
 }
 
-/* ======================================= */
-/* FOTO DE PERFIL             */
-/* ======================================= */
+
 .profile-picture {
     width: 130px;
     height: 130px;
-    border-radius: 50%; /* Deixa a imagem redonda */
+    border-radius: 50%; 
     border: 5px solid #fff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    object-fit: cover; /* Garante que a foto não fique distorcida */
+    object-fit: cover; 
 }
 
-/* /* ======================================= */
-/* CONFIGURAÇÕES GERAIS E FUNDO DA PÁGINA  */
-/* ======================================= */
+
 body {
-    /* Lembre-se de colocar a URL da sua imagem de fundo aqui */
+    
     background-image: url('https://i.pinimg.com/736x/29/40/18/2940188b92452fa56f6e2e54c28efd37.jpg');
     
     background-size: cover;
@@ -71,9 +63,7 @@ body {
     box-sizing: border-box;
 }
 
-/* ======================================= */
-/* O CARTÃO "VIDRO FOSCO" (CONTAINER)    */
-/* ======================================= */
+
 .container {
     max-width: 450px;
     width: 100%;
@@ -88,9 +78,7 @@ body {
     text-align: center;
 }
 
-/* ======================================= */
-/* FOTO DE PERFIL                          */
-/* ======================================= */
+
 .profile-picture {
     width: 120px;
     height: 120px;
@@ -100,15 +88,13 @@ body {
     object-fit: cover;
 }
 
-/* ======================================= */
-/* TÍTULOS E TEXTOS                        */
-/* ======================================= */
+
 h1 {
     font-size: 1.8em;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 5px;
-    color: #ffffff; /* SUA COR APLICADA */
+    color: #ffffff; 
 }
 
 p {
@@ -116,12 +102,10 @@ p {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 35px;
-    color: #ffffff; /* SUA COR APLICADA */
+    color: #ffffff; 
 }
 
-/* ======================================= */
-/* BOTÕES DE LINK                          */
-/* ======================================= */
+
 ul {
     list-style: none;
     padding: 0;
@@ -134,7 +118,7 @@ ul li {
 
 ul li a {
     display: block;
-    background-color: #8f6d7d; /* SUA COR APLICADA */
+    background-color: #8f6d7d; 
     color: #ffffff;
     padding: 18px;
     text-decoration: none;
@@ -146,16 +130,15 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #b4899d; /* SUA COR DE HOVER APLICADA */
-    transform: translateY(-3px) scale(1.03); /* SEU EFEITO DE HOVER APLICADO */
-    box-shadow: 0 8px 25px rgba(44, 62, 80, 0.3); /* SEU EFEITO DE HOVER APLICADO */
+    background-color: #b4899d; 
+    transform: translateY(-3px) scale(1.03); 
+    box-shadow: 0 8px 25px rgba(44, 62, 80, 0.3); 
 }
 
-/* ======================================= */
-/* ÍCONES DENTRO DOS BOTÕES               */
-/* ======================================= */
+
 ul li a i {
     margin-right: 12px;
     width: 20px;
     text-align: center;
+
 }
