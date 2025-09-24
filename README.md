@@ -1,7 +1,6 @@
 # Central de Links | Sthé Sbabo
 
-Este repositório contém o código da minha página de links pessoal, criada para centralizar todos os meus contatos e portfólios em um só lugar. O design foi desenvolvido com foco em uma estética limpa e profissional.
-
+Este repositório contém o código da minha página de links pessoal, criada para centralizar todos os meus contatos e portfólios em um só lugar. 
 <br>
 
 <p align="center">
